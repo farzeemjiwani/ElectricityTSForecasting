@@ -15,19 +15,18 @@ The Project Report contains detailed analysis and explanation of
 all the literature and methodology. It is present in the ``report`` folder
 titled ``Project_Report.pdf``
 
-
 ## Run Locally
 
 Download the project or clone as below:
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/farzeemjiwani/ElectricityTSForecasting
 ```
 
 Go to the project directory
 
 ```bash
-  cd ds8013_ts_forecasting_project
+  cd ElectricityTSForecasting
 ```
 
 Install dependencies
@@ -35,7 +34,7 @@ Install dependencies
 ```bash
   pip install -r requirements.txt
 ```
-Make sure data is downloaded and present ``data`` folder
+Make sure the data is downloaded and present ``data`` folder
 
 Run no lag model
 
@@ -49,15 +48,15 @@ Run lag model
   cd src
   python lag_modeling.py 
 ```
-Sample notebook with all results is present in ``reference_notebook`` folder. 
-For plots that are missing, they are present in the ``plots`` folder.
+
+Reference notebook with all the results is present in ``reference_notebook`` folder titled ``Project_Notebook.ipynb`` which can be run directly on Google Colab or locally. 
+For plots that are missing (as they are created in runtime using plotly), they are present in the ``plots`` folder.
 
 ``src/utils.py`` contains all the utility functions
 
 ## Feedback
 
 If you have any feedback, please reach out to me at farzeemjiwani@gmail.com
-
 
 ## License
 
