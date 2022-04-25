@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+seaborn
+sklearn
+plotly
+xgboost
+keras
+shap
+tensorflow
